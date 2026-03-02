@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 60px;
+    align-items: center;
+}
+
+
+.facebook a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #8b9dc3;
+     
+    
+    transform: rotate(-30deg) skew(25deg);
+    transition: 0.5s;
+}
+.facebook a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #3B5998;
+
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.twitter a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #b2dffb;
+     
+    
+    transform: rotate(-30deg) skew(25deg);
+    transition: 0.5s;
+}
+.twitter a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1DA1F2;
+
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.google-plus a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #f7b2b2;
+     
+    
+    transform: rotate(-30deg) skew(25deg);
+    transition: 0.5s;
+}
+.google-plus a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #db4437;
+
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.linkedin a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #a0c4ff;
+     
+    
+    transform: rotate(-30deg) skew(25deg);
+    transition: 0.5s;
+}
+.linkedin a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0077B5;
+
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.instagram a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #e8bfe3;
+     
+    
+    transform: rotate(-30deg) skew(25deg);
+    transition: 0.5s;
+}
+.instagram a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #e91e63;
+
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+
+}
+.icon-item a:hover span:nth-child(5) {transform: translate(40px, -40px); opacity: 1;}
+.icon-item a:hover span:nth-child(4) {transform: translate(30px, -30px); opacity: 0.6;}
+.icon-item a:hover span:nth-child(3) {transform: translate(20px, -20px); opacity: 0.4;}
+.icon-item a:hover span:nth-child(2) {transform: translate(10px, -10px); opacity: 0.2;}
+.icon-item a:hover span:nth-child(1) {transform: translate(0, 0); opacity: 0.1; }
+
