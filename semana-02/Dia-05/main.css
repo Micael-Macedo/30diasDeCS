@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #292929;
+  
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 60px;
+    align-items: center;
+}
+
+.heart-icon {
+    width: 60px;         
+    height: 50px;
+    stroke: rgb(60, 60, 60); 
+    stroke-width: 1.5;        
+    fill: none;              
+    display: block; 
+    margin: 0 20px;
+}
+
+.letrasquebrilham{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    color: rgb(60, 60, 60);
+    margin: 0%;
+    stroke-width: 1px;
+    
+}
+@keyframes brilhar{
+    0%, 8%, 100% {
+        color: rgb(60, 60, 60);
+        text-shadow: none;
+    }
+    0.5% {
+        color: #fffb00;
+        text-shadow: 0 0 15px #fffb00, 0 0 30px #ffcc00;
+    }
+}
+
+.letrasquebrilham span{
+    animation: brilhar 3s linear infinite;
+    display: inline-block;
+} 
+.letrasquebrilham .heart-icon {
+    animation: brilhar 3s linear infinite;
+    display: inline-block;
+}
+
+
+@keyframes brilharSVG {
+    0%, 8%, 100% {
+        stroke: rgb(60, 60, 60); filter: drop-shadow(0 0 0 transparent);
+    }
+    0.5% {
+        stroke: #fffb00; filter: drop-shadow(0 0 10px #fffb00);
+    }
+}
+
+.letrasquebrilham .heart-icon {
+    animation: brilharSVG 3s linear infinite;
+}
+
+.letrasquebrilham span:nth-child(1) { animation-delay: 0.0s; }
+.letrasquebrilham span:nth-child(2) { animation-delay: 0.2s; }
+.letrasquebrilham span:nth-child(3) { animation-delay: 0.4s; }
+.letrasquebrilham span:nth-child(4) { animation-delay: 0.6s; }
+.letrasquebrilham span:nth-child(5) { animation-delay: 0.8s; }
+.letrasquebrilham span:nth-child(6) { animation-delay: 1.0s; }
+.letrasquebrilham span:nth-child(7) { animation-delay: 1.2s; }
+.letrasquebrilham .heart-icon { animation-delay: 1.4s; }
+.letrasquebrilham span:nth-child(9) { animation-delay: 1.6s; }
+.letrasquebrilham span:nth-child(10) { animation-delay: 1.8s; }
+.letrasquebrilham span:nth-child(11) { animation-delay: 2.0s; }
