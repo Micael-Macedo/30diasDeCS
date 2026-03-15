@@ -8,12 +8,26 @@ Fala Devs, beleza? 🖖
 
 30 dias de CSS3 é uma série de desafios que visam melhorar habilidades em HTML5 e CSS3 através da realização de projetos
 
+## Avisos
+
+- Caso não saiba sobre GIT acesse o arquivo [GUIA_GIT.md](GUIA_GIT.md)
+- Instale o [VSCODE](https://code.visualstudio.com)
+- Ao realizar a instalação do vscode instale as seguintes extensões:
+- [GitLens (Visualização de historico do git)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+![alt text](imgs/git_lens.png)
+- [Live Server (Rodar um mini servidor para visualizar arquivos html desenvolvidos)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+![alt text](imgs/live_server.png)
 
 ## Regras gerais
 
-- Realizar um projeto por dia
-- Criar um arquivo readme por desafio informando aprendizados e dificuldades
-- Sem ajuda de: IA
+- Realizar um projeto por dia(ou tente)
+- Crie uma branch pessoal da seguinte forma branch_(seu_nome)
+- Todos os desafios devem ser ramificações(branchs) a partir da sua branch pessoal. Com isso todos os seus desafios devem ficar exclusivamente na sua branch pessoal
+![alt text](imgs/fluxos_branch.png)
+- Para enviar seus desafios devem ser realizados pull request da branch do desafio para sua branch pessoal, para que possa avaliar o que foi desenvolvido(Explicação em [FLUXO TAREFAS](GUIA_GIT.md#6-fluxo-de-trabalho-recomendado))
+- **Criar um arquivo readme por desafio informando aprendizados e dificuldades**
+- **Sem ajuda de: IA e colegas que fazem parte do desafio**
+- Não devem ser utilizadas bibliotecas externas de estilização.
 
 ## Documentação
 
@@ -21,6 +35,7 @@ Fala Devs, beleza? 🖖
 - [MDN HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [Guia de Busca Rápida](https://devdocs.io/)
 - [Guia de Criacao de Branch e Pull Request](GUIA_CONTRIBUICAO.md)
+- [Guia de Primeiros Passos com Git](GUIA_GIT.md)
 
 ### Semana 1
 
