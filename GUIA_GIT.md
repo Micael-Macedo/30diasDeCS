@@ -6,10 +6,10 @@ Este guia foi criado para ajudar você a configurar o Git e entender os comandos
 
 ### Windows
 1. Baixe o instalador oficial em [git-scm.com](https://git-scm.com/download/win). [veja os videos de tutorial abaixo em VIDEOS](#3-videos-de-apoio)
-![alt text](instalacao_git.png)
+![alt text](imgs/instalacao_git.png)
 2. Execute o instalador e siga as instruções (as opções padrão geralmente são suficientes).
 3. Substitua **master** por **main**
-![alt text](default_branch_main.png)
+![alt text](imgs/default_branch_main.png)
 4. Abra o **Prompt de Comando**, **PowerShell** ou **Git Bash** e verifique a instalação, caso não funcione tente reiniciar o PC:
    ```bash
    git --version
