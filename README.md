@@ -22,6 +22,7 @@ Fala Devs, beleza? 🖖
 
 - Realizar um projeto por dia(ou tente)
 - Crie uma branch pessoal da seguinte forma branch_(seu_nome)
+- Crie uma pasta com seu nome e dentro deles seus desafios a fim de evitar conflitos de merge ex: desafios_micael
 - Todos os desafios devem ser ramificações(branchs) a partir da sua branch pessoal. Com isso todos os seus desafios devem ficar exclusivamente na sua branch pessoal
 ![alt text](imgs/fluxos_branch.png)
 - Para enviar seus desafios devem ser realizados pull request da branch do desafio para sua branch pessoal, para que possa avaliar o que foi desenvolvido(Explicação em [FLUXO TAREFAS](GUIA_GIT.md#6-fluxo-de-trabalho-recomendado))
